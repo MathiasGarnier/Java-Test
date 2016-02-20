@@ -30,10 +30,10 @@ class Add extends JFrame implements ActionListener{
 		jt1 = new JTextField(20);
 		add(jt1);
 		
-		label = new JLabel("Result");
+		label = new JLabel("");
 		add(label);
 		
-		button = new JButton("Search");
+		button = new JButton("Result");
 		add(button);
 		
 		button.addActionListener(this);
