@@ -1,13 +1,18 @@
-package org.mathiasGarnier.prototype_os;
 
+import java.io.File;
 import java.util.Date;
 import java.util.Scanner;
+
+import javax.swing.JTree;
 
 public class Start{
 
 	static Scanner sc = new Scanner(System.in);
 	static String username, password, cmd = new String();
 
+	private File[] _roots;
+	private JTree _dirs;
+	
 	public static void main(String[] args){
 		
 		System.out.println("Démarrage en cours ...\nCréation d\'une nouvelle session...\nEntrez votre nom d\'utilsateur (par défaut c\'est \"you\"):");
@@ -20,7 +25,7 @@ public class Start{
 				
 				
 				System.out.println("Listes des commandes possibles :");
-				System.out.println("time : Affiche l\'heure.\necho \"texte\": Afficher du texte.\n");
+				System.out.println("time : Affiche l\'heure.\necho \"texte\": Afficher du texte.\ntree : Affiche l\'arborescence.\n");
 				
 				
 				for(int i = 0; i < 42; i++){
