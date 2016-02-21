@@ -9,7 +9,7 @@ public class SendChatMessage {
 		
 		Skype.setDebug(true);
 		
-				System.out.println(Skype.chat(Constants.NICKNAME).getWindowTitle());
+		System.out.println(Skype.chat(Constants.NICKNAME).getWindowTitle());
 	}
  
 }
