@@ -22,7 +22,7 @@ public class Main {
 		
 		if(i == 0){
 			System.out.println("L'ascenseur est là !");
-		}
+			}
 		}
 	}
 }
