@@ -1,7 +1,7 @@
 package fr.mathiasGarnier.testPI;
 
 /*
- * 4 first decimal values of Math.PI; 
+ * 4 first decimals values of Math.PI; 
  */
 
 public class Main {
