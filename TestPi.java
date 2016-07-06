@@ -22,7 +22,7 @@ public class Main {
 			if (String.valueOf(result).contains("3.1415") ) {
 				System.out.println(result);
 				/*
-				 * Welle done ! x)
+				 * Well done ! x)
 				 * @TODO Make with StringBuilder.
 				 */
 				
