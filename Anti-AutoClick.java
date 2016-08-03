@@ -24,7 +24,7 @@ public class Main extends JavaPlugin implements Listener {
 	private static int test = 0;
 	
 	@EventHandler
-	public void onPlayerAnimation(PlayerAnimationEvent e) {
+	public void onPlayerClick(PlayerAnimationEvent e) {
 		
 		Player p = e.getPlayer();
 		
