@@ -20,7 +20,6 @@ public class Main extends JavaPlugin implements Listener {
 
 	}
 	
-	/* Bad idea */
 	private static int count = 0;
 	private static int test = 0;
 	
