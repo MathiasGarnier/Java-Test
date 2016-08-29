@@ -52,7 +52,7 @@ public class Main extends JavaPlugin implements Listener {
 					
 					test += 1; //>= 20 == AUTO 
 
-					if (test > 5) {
+					if (test > count) {
 						
 						test = 0;
 						count = 0;
