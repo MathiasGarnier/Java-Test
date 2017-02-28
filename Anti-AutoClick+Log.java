@@ -61,7 +61,7 @@ public class Main extends JavaPlugin implements Listener {
 
 							String content = "Suspect : " + p.getName();
 
-							File file = new File("C:/Users/Yapix/workspace/Minecraft/TimeLord/src/fr/yapix/main/log.txt");
+							File file = new File("C://Users//Yapix//workspace//Minecraft//TimeLord//src//fr//yapix//main//log.txt");
 
 							if (!(file.exists())) {
 								file.createNewFile();
